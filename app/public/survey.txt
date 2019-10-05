@@ -1,0 +1,243 @@
+ <h3 class="question"><b>Question 1</b></h3>
+            <h4>The toilet paper should go under the roll, not over.</h4>
+            <select class="selectpicker" id="q1" title="Choose one of the following...">
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2 (somewhat disagree)</option>
+                <option value="3">3 (neutral)</option>
+                <option value="4">4 (somewhat agree)</option>
+                <option value="5">5 (strongly agree)</option>
+            </select>
+
+            <h3 class="question"><b>Question 2</b></h3>
+            <h4>You think that "Red Vines" are superior to twizzlers.</h4>
+            <select  class="selectpicker" id="q2" title="Choose one of the following...">
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2 (somewhat disagree)</option>
+                <option value="3">3 (neutral)</option>
+                <option value="4">4 (somewhat agree)</option>
+                <option value="5">5 (strongly agree)</option>
+            </select>
+
+
+            <h3 class="question"><b>Question 3</b></h3>
+            <h4>You should only set one alarm for the morning, and get up right when it goes off.</h4>
+            <select class="selectpicker" id="q3" title="Choose one of the following...">
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2 (somewhat disagree)</option>
+                <option value="3">3 (neutral)</option>
+                <option value="4">4 (somewhat agree)</option>
+                <option value="5">5 (strongly agree)</option>
+            </select>
+
+
+            <h3 class="question"><b>Question 4</b></h3>
+            <h4>Ketchup should go directly on the fries, not on the side for dipping.</h4>
+            <select class="selectpicker" id="q4" title="Choose one of the following...">
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2 (somewhat disagree)</option>
+                <option value="3">3 (neutral)</option>
+                <option value="4">4 (somewhat agree)</option>
+                <option value="5">5 (strongly agree)</option>
+            </select>
+
+
+            <h3 class="question"><b>Question 5</b></h3>
+            <h4>You are the type of person who squeezes the toothpaste tube from the middle.</h4>
+            <select class="selectpicker" id="q5" title="Choose one of the following...">
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2 (somewhat disagree)</option>
+                <option value="3">3 (neutral)</option>
+                <option value="4">4 (somewhat agree)</option>
+                <option value="5">5 (strongly agree)</option>
+            </select>
+
+
+            <h3 class="question"><b>Question 6</b></h3>
+            <h4>When you take videos, the phone should be in portrait, not landscape.</h4>
+            <select class="selectpicker" id="q6" title="Choose one of the following...">
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2 (somewhat disagree)</option>
+                <option value="3">3 (neutral)</option>
+                <option value="4">4 (somewhat agree)</option>
+                <option value="5">5 (strongly agree)</option>
+            </select>
+
+
+            <h3 class="question"><b>Question 7</b></h3>
+            <h4>You leave the crust of a slice of pizza and get another piece.</h4>
+            <select class="selectpicker" id="q7" title="Choose one of the following...">
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2 (somewhat disagree)</option>
+                <option value="3">3 (neutral)</option>
+                <option value="4">4 (somewhat agree)</option>
+                <option value="5">5 (strongly agree)</option>
+            </select>
+
+            <h3 class="question"><b>Question 8</b></h3>
+            <h4>You pronounce the word "Gif" like the peanut butter "Jif".</h4>
+            <select class="selectpicker" id="q8" title="Choose one of the following...">
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2 (somewhat disagree)</option>
+                <option value="3">3 (neutral)</option>
+                <option value="4">4 (somewhat agree)</option>
+                <option value="5">5 (strongly agree)</option>
+            </select>
+
+            <h3 class="question"><b>Question 9</b></h3>
+            <h4>Sandwiches should be cut straight in half, not diagonally.</h4>
+            <select class="selectpicker" id="q9" title="Choose one of the following...">
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2 (somewhat disagree)</option>
+                <option value="3">3 (neutral)</option>
+                <option value="4">4 (somewhat agree)</option>
+                <option value="5">5 (strongly agree)</option>
+            </select>
+
+            <h3 class="question"><b>Question 10</b></h3>
+            <h4>Pages in books should be marked by "dog earing" the corners of the pages.</h4>
+            <select class="selectpicker" id="q10" title="Choose one of the following...">
+                <option value="1">1 (strongly disagree)</option>
+                <option value="2">2 (somewhat disagree)</option>
+                <option value="3">3 (neutral)</option>
+                <option value="4">4 (somewhat agree)</option>
+                <option value="5">5 (strongly agree)</option>
+            </select>
+
+
+<div class="form-group">
+				<label for="question1">I like to do janitorial work.</label>
+				<select class="form-control" id="question1">
+					<option value="empty"></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question2">I have some bird-like features (or so I've been told).</label>
+				<select class="form-control" id="question2">
+					<option value="empty"></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question3">I think very highly of myself.</label>
+				<select class="form-control" id="question3">
+					<option value="empty"></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question4">I enjoy martial arts.</label>
+				<select class="form-control" id="question4">
+					<option value="empty"></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question5">I read as a hobby.</label>
+				<select class="form-control" id="question5">
+					<option value="empty"></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question6">I am God's gift to the opposite sex.</label>
+				<select class="form-control" id="question6">
+					<option value="empty"></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question7">I don't so well with the opposite sex.</label>
+				<select class="form-control" id="question7">
+					<option value="empty"></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question8">I am good with money.</label>
+				<select class="form-control" id="question8">
+					<option value="empty"></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question9">I work out at the gym often.</label>
+				<select class="form-control" id="question9">
+					<option value="empty"></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question10">I consider myself aggressive.</label>
+				<select class="form-control" id="question10">
+					<option value="empty"></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+		</form>
+
+
+
+Worry about things?
+Make friends easily?
+Have a vivid imagination?
+Trust others?
+Complete tasks successfully?
+Get angry easily?
+Love large parties?
+Use others for my own ends?
+Like to tidy up?
+Often feel blue?
+Take charge?
+Experience my emotions intensely?
+Love to help others?
+Keep my promises?
+Find it difficult to approach others?
+Am always busy?
+Prefer variety to routine?
+Love a good fight?
+Work hard?
+Love excitement?
+Love to read challenging material?
+Believe that I am better than others?
+Am always prepared?
