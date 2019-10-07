@@ -183,7 +183,7 @@
         //---------
         $.post("/api/friends", newFriend)
         .then(function(data) {
-          console.log(data)
+          // console.log(data)
 				$("#userMatch").text(data.name);
 				$("#userMatchImage").attr("src", data.photo);
 				$("#modal1").modal("toggle");
