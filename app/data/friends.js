@@ -3,53 +3,53 @@
 
 var friendsDB = [
 	{
-		name: "Aang",
-		photo: "https://img.pngmix.com/pm/hamtaro/hamtaro_003.png",
+		name: "Korra",
+		photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX5TlgNk0-2VRdW1UNisWDG0lwzWb4-VzeT16kKnAsFQB_a2NKCA",
 		scores: [4, 5, 4, 1, 5, 3, 2, 3, 4, 5]
 	},
 	{
 		name: "Katara",
-		photo: "https://www.sccpre.cat/mypng/full/348-3486231_hamtaro-pashmina-hamtaro.png",
+		photo: "https://i.kym-cdn.com/entries/icons/original/000/000/211/Picture_2.png",
 		scores: [5, 5, 5, 1, 5, 1, 1, 3, 3, 3]
 	},
 	{
 		name: "Toph",
-		photo: "https://img.pngmix.com/pm/hamtaro/hamtaro_005.png",
+		photo: "https://m.media-amazon.com/images/M/MV5BYmUzMjRlNzUtMmUzNC00Y2E2LWE1ZDMtNjZjMDAyZmQ5NjQ3XkEyXkFqcGdeQXVyNTkyMjE3NDU@._V1_UY1200_CR645,0,630,1200_AL_.jpg",
 		scores: [5, 3, 4, 3, 5, 5, 1, 5, 4, 5]
 	},
 	{
 		name: "Sokka",
-		photo: "https://cdn.imgbin.com/0/17/10/imgbin-jingle-hamtaro-ham-ham-heartbreak-hamtaro-ham-ham-games-anime-song-anime-98M0Wp2Qx6zRY1FaHunNCbHXX.jpg",
+		photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVa_YveYzXASL2G-Kh6FxTntuL8N_V8Dl3kWhqoM7lao6o26Er",
 		scores: [3, 1, 3, 5, 2, 1, 1, 5, 5, 5]
 	},
 	{
 		name: "Azula",
-		photo: "https://www.nicepng.com/png/detail/125-1259784_the-hamtaro-wiki-hamtaro-wikia.png",
+		photo: "https://fictionalfemales.com/wp-content/uploads/sites/4/2016/09/Azula.jpg",
 		scores: [3, 1, 4, 3, 5, 5, 1, 4, 3, 5]
 	},
 	{
 		name: "Tylee",
-		photo: "https://vignette.wikia.nocookie.net/hamtaro/photos/d/d9/BossN.png/revision/latest?cb=20151001190817",
+		photo: "https://i.quotev.com/img/q/u/16/9/5/74wmltz7fq.jpg",
 		scores: [5, 3, 5, 5, 5, 5, 1, 4, 4, 5]
 	},
 	{
 		name: "Appa",
-		photo: "http://unisci24.com/data_photos/wlls/22/246928-hamtaro.jpg",
+		photo: "https://cdn.shopify.com/s/files/1/0882/5118/products/Funko-Pop-Animation-Avatar-The-Last-Airbender-Appa-2342712_1024x1024.jpg?v=1557179478",
 		scores: [5, 1, 3, 4, 5, 5, 1, 4, 3, 5]
 	},
 	{
-		name: "Mei",
-		photo: "http://unisci24.com/data_photos/wlls/22/246928-hamtaro.jpg",
+		name: "Zuko",
+		photo: "https://cdn.shopify.com/s/files/1/0882/5118/products/Funko-Pop-Animation-Avatar-The-Last-Airbender-Zuko-2342705_1024x1024.jpg?v=1557179458",
 		scores: [4, 1, 2, 1, 5, 5, 1, 5, 5, 5]
 	},
 	{
 		name: "Mei",
-		photo: "https://vignette.wikia.nocookie.net/hamtaro/photos/9/97/SandyN.png/revision/latest/scale-to-width-down/2000?cb=20151001182439",
+		photo: "https://www.pngix.com/pngfile/middle/5-53462_mai-avatar-the-last-airbender-mei-hd-png.png",
 		scores: [3, 1, 1, 1, 5, 4, 1, 4, 4, 5]
 	},
 	{
 		name: "Suki",
-		photo: "https://vignette2.wikia.nocookie.net/hamtaro/photos/1/16/CappyN.png/revision/latest?cb=20150928215407",
+		photo: "https://i1.pngguru.com/preview/607/705/131/avatar-the-last-airbender-suki-5-png-clipart.jpg",
 		scores: [4, 1, 1, 1, 3, 1, 1, 5, 2, 5]	
 	}
 ];

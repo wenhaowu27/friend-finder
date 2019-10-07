@@ -52,3 +52,5 @@ You will use Express to handle routing. Make sure you deploy your app to Heroku 
 ![Image of home](./app/images/home.jpg)
 ![Image of survey](./app/images/survey.jpg)
 ![Image of /api/friends](./app/images/api_friends.jpg)
+![Image of /api/match](./app/images/answer.jpg)
+![video of /api/matched](./app/images/Matched_Answer.mp4)

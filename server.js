@@ -15,11 +15,9 @@ app.use(express.json());
 var htmlRoutes = require('./app/routes/htmlRoutes');
 app.use(htmlRoutes);
 
+
 var apiRoutes = require('./app/routes/apiRoutes');
-app.use('/api',apiRoutes);
-
-
-
+app.use(apiRoutes);
 
 
 //set up app to listen for request
