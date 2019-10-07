@@ -48,11 +48,11 @@ router.post("/api/friends", function(req, res) {
       friends.push(user);
       //  console.log("friends  ", friends);
       //  console.log("user  ", user);
-      res.json(friends[bestFriendIndex]);
+      // res.json(friends[bestFriendIndex]);
     }
     
   // send back to browser the best friend match
-  // res.json(friends[bestFriendIndex]);
+  return res.json(friends[bestFriendIndex]);
   }
 
   // after finding match, add user to friend array
