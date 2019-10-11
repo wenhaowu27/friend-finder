@@ -1,4 +1,39 @@
-                                     
+var friends = require('../data/friends');
+var express = require("express");
+var router = express.Router();
+
+
+  router.get('/api/friends',function(req, res){
+    console.log(friends)
+      res.json(friends);
+  });
+  
+  // console.log(friends);
+  
+  //creates new friend data based on survey
+  router.post("/api/friends", function(req, res) {
+    console.log(req.body.scores);
+  
+    // Receive user details (name, photo, scores)
+  
+    // req.body hosts is equal to the JSON post sent from the user
+    // This works because of our body parsing middleware
+    var user = req.body;
+    var matchName;
+    var matchImage;
+  console.log({user})
+    // parseInt for scores
+    
+     // parseInt for scores
+     for(var i = 0; i < user.newScore.length; i++) {
+      user.newScore[i] = parseInt(user.newScore[i]);
+    }  
+    // friends.push(user);
+  
+    // console.log(user.score);
+    // res.json();                                   
+  
+  
   var bestFriendIndex = 0;
   var mminimumDiff = 0;
 
