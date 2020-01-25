@@ -6,6 +6,10 @@ In this activity, you'll build a compatibility-based "FriendFinder" application 
 
 You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
 
+### Chalenge
+
+I spent great amount of time on option button and how to read the value. I ultimately find the solution from Stack Overflow and it allow me to finished my work.
+
 
 ### Instructions
 
