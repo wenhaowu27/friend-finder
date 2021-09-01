@@ -8,6 +8,11 @@ var router = express.Router();
       res.json(friends);
   });
   
+  router.get('/api/data/images/friends',function(req, res){
+    console.log(friends)
+      res.json(friends);
+  });
+  
   // console.log(friends);
   
   //creates new friend data based on survey
@@ -43,7 +48,7 @@ var router = express.Router();
     var totalDiff = 0;
     for(var j = 0; j < user.newScore.length; j++) {
       var Diff = Math.abs(user.newScore[j] - friends[i].scores[j]);
-      // console.log("i= ",i," j= ",j," Diff =", Diff);
+      console.log("i= ",i," j= ",j," Diff =", Diff);
       totalDiff += Diff;      
     }
 
@@ -55,9 +60,9 @@ var router = express.Router();
       var matchImage = friends[bestFriendIndex].photo;   
       console.log("matchName = ", friends[bestFriendIndex].name)
       friends.push(user);
-      //  console.log("friends  ", friends);
-      //  console.log("user  ", user);
-      // res.json(friends[bestFriendIndex]);
+       console.log("friends  ", friends);
+       console.log("user  ", user);
+      res.json(friends[bestFriendIndex]);
     }
     
   // send back to browser the best friend match

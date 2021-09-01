@@ -4,7 +4,7 @@
 var friendsDB = [
 	{
 		name: "Korra",
-		photo: "http://localhost:3000/images/korra1.jpg",
+		photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX5TlgNk0-2VRdW1UNisWDG0lwzWb4-VzeT16kKnAsFQB_a2NKCA",
 		scores: [4, 5, 4, 1, 5, 3, 2, 3, 4, 5]
 	},
 	{

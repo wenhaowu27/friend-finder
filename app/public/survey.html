@@ -163,7 +163,8 @@
         // Here we grab the form elements
         var newFriend = {
           newName: $("#urName").val().trim(),
-          newPhoto: "https://www.clipartmax.com/png/middle/288-2883718_hamster-clipart-hamtaro-hamtaro-y-sus-amigos.png",
+          newPhoto: "",
+          // newPhoto: "https://www.clipartmax.com/png/middle/288-2883718_hamster-clipart-hamtaro-hamtaro-y-sus-amigos.png",
           newScore: [ 
             $("#quiz1 input[type='radio']:checked").val(),
             $("#quiz2 input[type='radio']:checked").val(),
@@ -183,7 +184,7 @@
         //---------
         $.post("/api/friends", newFriend)
         .then(function(data) {
-          // console.log(data)
+          console.log(data)
 				$("#userMatch").text(data.name);
 				$("#userMatchImage").attr("src", data.photo);
 				$("#modal1").modal("toggle");
